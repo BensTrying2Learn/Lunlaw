@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    {%include "headlayout.html"%}
+  </head>
+  <body>
+
+    {%include "topnav.html"%}
+    <!-- END nav -->
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('{{ url_for('static', filename='images/attorney.jpg') }}')" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end">
+          <div class="col-md-9 ftco-animate pb-5">
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Attorneys <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-0 bread">Meet the Attorneys</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hero-area hero-height2 d-flex align-items-center" data-background="assets/img/hero/h2_hero.jpg" style="padding-top: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap text-center pt-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <!-- Hero Area End -->
+        <!-- About Details Start -->
+        <a id="wendy"></a><div class="about-details-area section-padding2" style="padding-bottom: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="about-tittle">
+                            <h2>Wendy Lun</h2>
+                            <div>
+                              <img src="{{url_for('static', filename='images/wendy.jpg')}}" style="float:left;width:350px;height:350px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="about-details mb-50">
+                            <p class="pear2">After graduated top 10% from law school, Ms. Lun joined the esteemed firm, Fenwick and West LLP. At the prominent Silicon Valley law firm, she represented a broad range of clients. Much of her early work focused on the mergers and acquisitions of major tech companies including that of Pixar. This work gave Wendy substantial amounts of experience in high pressure situations with extremely high stakes.</p>
+                            <p class="pear2">Prior to founding Lun & Associates, Ms. Lun moved on to serve as an in-house counsel for ACER America helping both domestic and international clients. This continued work within the tech sector of Silicon Valley has helped Ms. Lun to understand the many issues that many face living in the greater Bay Area. The experiences that Ms. Lun has experience have been impactful to her ability to practice family law.</p>
+                            <p class="pear2">Ms. Lun left the tech sector and opened Lun & Associates in 2000. She has been practicing almost entirely Family Law and specializes in complex divorce cases with focuses on child custody and property division and more. Over the past twenty years practicing family law, Ms. Lun has successfully resolved well over a thousand cases of clients in many court cases in the Bay Area.</p>
+                            <p class="pear2">Ms. Lun is well known in the Bay Area family law field for her aggressive personality and her passion to never let her clients be bullied. While she understands that a heavy hand is not always necessary, she will always passionately fight in your corner when you need legal protection. It is important to Ms. Lun that her clients never feel alone when going through such difficult and often traumatic experiences relating to their family law issues.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" style="padding-top: 50px"><a id="joseph"></a>
+                        <div class="about-tittle">
+                            <h2>Joseph Tse</h2>
+                            <div>
+                              <img src="{{url_for('static', filename='images/joseph.jpg')}}" style="float:left;width:350px;height:350px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" style="padding-top: 50px">
+                        <div class="about-details">
+                            <p class="pear2">Before embarking on his legal career, Mr. Tse had over ten years of managerial experiences working in media company as top executive. Prior to joing Lun & Associates, Mr. Tse worked at Baker Law Corporation serving many fortune 500 companies in Silicon Valley including Cisco, Synopsys and Sun Microsystem. He also clerked in the City Attorney Office in the City of Fremont where he gained valuable experiences in many types of civil litigation.</p> 
+                            <p class="pear2">Mr. Tse has extensive experience in counseling clients in a variety of legal needs, including Bankruptcy, Immigration, and many types of Civil Litigation. Member of the State Bar of California, Mr. Tse is admitted to United States District Court, Unites States Court of Appeals for the Ninth Circuit, and the Supreme Court of California.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>		
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt bg-secondary">
+      <div class="container py-5">
+    		<div class="row">
+          <div class="col-md-7 d-flex align-items-center">
+            <h2 class="mb-3 mb-sm-0" style="color:black; font-size: 22px;">Sign Up for Your Free 1st Accounting Consultation</h2>
+          </div>
+          <div class="col-md-5 d-flex align-items-center">
+            <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+                <input type="text" class="form-control" placeholder="Enter email address">
+                <input type="submit" value="Subscribe" class="submit px-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include "footer.html" %}
+    
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{{ url_for('static', filename= 'js/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery-migrate-3.0.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.easing.1.3.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.waypoints.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.stellar.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.animateNumber.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/scrollax.min.js' ) }}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{{ url_for('static', filename= 'js/google-map.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/main.js') }}"></script>
+    
+  </body>
+</html>

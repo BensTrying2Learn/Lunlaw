@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    {%include "headlayout.html"%}
+	  	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link  href="{{ url_for('static', filename='css/animate.css') }}" rel="stylesheet">
+
+    <link  href="{{ url_for('static', filename='css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link  href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}" rel="stylesheet">
+    <link  href="{{ url_for('static', filename='css/magnific-popup.css') }}" rel="stylesheet">
+
+    <link  href="{{ url_for('static', filename='css/flaticon.css') }}" rel="stylesheet">
+    <link  href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  </head>
+  <body>
+
+    {%include "topnav.html"%}
+    <!-- END nav -->
+    <div class="hero-wrap">
+	    <div class="home-slider owl-carousel">
+	      <div class="slider-item" style="background-image:url({{ url_for('static', filename='images/justicecenter.jpg') }}); opacity: .7">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+              <div class="col-md-8 ftco-animate">
+                <div class="text w-100 text-center">
+                  <h2>A Leader In Silicon Valley</h2>
+                  <h1 class="mb-4">A Top Rated Family Law Firm Focused On Assisting You</h1>
+                  <p><a href="/contact" class="btn btn-white">Connect with us</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item" style="background-image:url({{ url_for('static', filename='images/child.jpg') }}); opacity: .7">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-center">
+		          <div class="col-md-8 ftco-animate">
+		          	<div class="text w-100 text-center">
+		          		<h2>We Protect You</h2>
+			            <h1 class="mb-4">We Ensure Your Loved Ones Stay Safe With You</h1>
+			            <p><a href="/contact" class="btn btn-white">Connect with us</a></p>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item" style="background-image:url({{ url_for('static', filename='images/home.jpg') }}); opacity: .7">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-center">
+		          <div class="col-md-8 ftco-animate">
+		          	<div class="text w-100 text-center">
+		          		<h2>Defend Your Financial Rights</h2>
+			            <h1 class="mb-4">We Make Sure You Receive Your Just Financial Distribution</h1>
+			            <p><a href="/contact" class="btn btn-white">Connect with us</a></p>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+   	
+    <section class="ftco-section ftco-no-pt bg-light">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 d-flex">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url({{ url_for('static', filename='images/about.jpg') }})">
+    				</div>
+    			</div>
+    			<div class="col-md-6 pl-md-5 py-md-5">
+    				<div class="heading-section pl-md-4 pt-md-5">
+    					<span class="subheading">Welcome to Lun & Associates</span>
+	            <h2 class="mb-4">A Top Rated Firm Focused On Client Goals</h2>
+    				</div>
+    				<div class="services-2 w-100 d-flex">
+    					<div><img class="icon d-flex align-items-center justify-content-center" src="{{ url_for('static', filename='images/adoption.svg') }}"></img></div>
+    					<div class="text pl-4">
+    						<h4>Family Law</h4>
+    						<p>The main area of practice at Lun & Associates. With a vast aray of knowledge and experience, we always ensure to protect your rights.</p>
+    					</div>
+    				</div>
+    				<div class="services-2 w-100 d-flex">
+    					<div><img class="icon d-flex align-items-center justify-content-center" src="{{ url_for('static', filename='images/museum.svg') }}"></img></div>
+    					<div class="text pl-4">
+    						<h4>Bankruptcy</h4>
+    						<p>In difficult times you need someone who you can trust.</p>
+    					</div>
+    				</div>
+    				<div class="services-2 w-100 d-flex">
+    					<div><img class="icon d-flex align-items-center justify-content-center" src="{{ url_for('static', filename='images/car-crash.svg') }}"></img></div>
+    					<div class="text pl-4">
+    						<h4>Personal Injury</h4>
+    						<p>We aim to financially repair the pain and suffering that you have gone through.</p>
+    					</div>
+    				</div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-counter bg-light ftco-no-pt" id="section-counter">
+    	<div class="container">
+				<div class="row">
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="44">0</strong>
+              </div>
+              <div class="text">
+              	<span>Years of Experienced</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="3000">0</strong>
+              </div>
+              <div class="text">
+              	<span>Cases Completed</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="800000000">0</strong>
+              </div>
+              <div class="text">
+              	<span>Assets Divided in Dollars</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-faqs" style="background-color: #EBEDEE">
+      <div class="overlay"></div>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-6">
+    				<div class="img-faqs w-100">
+	    				<div class="img mb-4 mb-sm-0" style="background-image:url({{ url_for('static', filename='images/courtroom.jpg') }}">
+	    				</div>
+	    				<div class="img img-2 mb-4 mb-sm-0" style="background-image:url({{ url_for('static', filename='images/parentchild.jpg') }}">
+	    				</div>
+	    			</div>
+    			</div>
+    			<div class="col-lg-6 pl-lg-5">
+    				<div class="heading-section mb-5 mt-5 mt-lg-0">
+    					<span class="subheading">FAQs</span>
+	            <h2 class="mb-3">Frequently Asks Questions</h2>
+	            <p>This is a small portion of frequent problems that we see all the time.</p>
+    				</div>
+    				<div id="accordion" class="myaccordion w-100" aria-multiselectable="true">
+						  <div class="card">
+						    <div class="card-header p-0" id="headingOne">
+						      <h2 class="mb-0">
+						        <button href="#collapseOne" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+						        	<p class="mb-0">I'm not sure I want to request a domestic violence restraining order</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+						      </h2>
+						    </div>
+						    <div class="collapse" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
+						      <div class="card-body py-3 px-0">
+						      	<p>We will walk you through your current situation and the dangers that your life may pose. While domestic violence may not be for everyone, we will support you into a decision that is best for you. There are many factors at play, many of which you may not even realize. Reach out to us for a consultation and we will help you decide what is best for you.</p>
+						      </div>
+						    </div>
+						  </div>
+
+						  <div class="card">
+						    <div class="card-header p-0" id="headingTwo" role="tab">
+						      <h2 class="mb-0">
+						        <button href="#collapseTwo" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
+						        	<p class="mb-0">I don't live in California but my kids do, What do I do?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+						      </h2>
+						    </div>
+						    <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="card-body py-3 px-0">
+						      	<p>We will help you with your custody and visitation issues wherever you live. Just because you do not live near your children does not mean that you should not be able to see them. The Courts believe that children should be able to see both parent's regardless of where those parents might live. We will help with your appearances in Court even if they are virtual.</p>
+						      </div>
+						    </div>
+						  </div>
+
+						  <div class="card">
+						    <div class="card-header p-0" id="headingThree" role="tab">
+						      <h2 class="mb-0">
+						        <button href="#collapseThree" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
+						        	<p class="mb-0">The other parent hasn't allowed me to see my children at all, what do I do?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+						      </h2>
+						    </div>
+						    <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="card-body py-3 px-0">
+						      	<p>This not uncommon issue comes up with frequency. Whether the issue stems from a misunderstanding or something deeper, we will work with you to make sure that you see your children. This issue can often cause an emergency basis which we will make sure is heard by the Court far more expediently than they normally would.</p>
+						      </div>
+						    </div>
+						  </div>
+
+						  <div class="card">
+						    <div class="card-header p-0" id="headingFour" role="tab">
+						      <h2 class="mb-0">
+						        <button href="#collapseFour" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
+						        	<p class="mb-0">I'm not sure a family attorney is what I need?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+						      </h2>
+						    </div>
+						    <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="card-body py-3 px-0">
+						      	<p>If you are not sure that a family attorney is what you need, we can help regardless of the issue. We can determine for you what Court is appropriate to hear your case. If it is family related we will provide the best services on the issue possible. If it is not, we can point you into the right direction to obtain the help you need.</p>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+	        </div>
+        </div>
+    	</div>
+    </section>		
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt bg-secondary">
+      <div class="container py-5">
+    		<div class="row">
+          <div class="col-md-7 d-flex align-items-center">
+            <h2 class="mb-3 mb-sm-0" style="color:black; font-size: 22px;">Set Up Your Consultation</h2>
+          </div>
+          <div class="col-md-5 d-flex align-items-center">
+            <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+              	{{ form.email(class="form-control form-control-lg", placeholder="Enter Email") }}
+              	{{ form.subscribe(class="submit px-3") }}
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include "footer.html" %}
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{{ url_for('static', filename= 'js/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery-migrate-3.0.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.easing.1.3.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.waypoints.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.stellar.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.animateNumber.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/scrollax.min.js' ) }}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{{ url_for('static', filename= 'js/google-map.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/main.js') }}"></script>
+    
+  </body>
+</html>

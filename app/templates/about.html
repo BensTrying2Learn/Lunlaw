@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    {%include "headlayout.html"%}
+  </head>
+  <body>
+
+    {%include "topnav.html"%}
+    <!-- END nav -->
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('{{ url_for('static', filename='images/attorney.jpg') }}')" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end">
+          <div class="col-md-9 ftco-animate pb-5">
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-0 bread">About</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hero-area hero-height2 d-flex align-items-center" data-background="assets/img/hero/h2_hero.jpg" style="padding-top: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap text-center pt-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <!-- Hero Area End -->
+        <!-- About Details Start -->
+        <div class="about-details-area section-padding2" style="padding-bottom: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="about-tittle">
+                            <h2>About Us</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="about-details mb-50">
+                            <p><strong>At it's inception in 2003, Lun & Associates has aimed to serve each of it's clients to obtain the best family life possible.</strong></p>
+                            <p class="pear2">Lun & Associates began as a botique family law firm which aimed to provide each client with the support and attention that each needed. At the onset of the firm's beginning, Ms. Lun knew that her passion had taken her to serve those who needed to gaurantee that their familial and property rights would not be unjustly taken away.</p>
+                            <p class="pear2">The firm's main focus is family law. Ms. Lun provides almost all of her attention to family law. Mr. Tse is the same while providing services to clients with Personal Injury claims, Estate Planning, Immigration, and Bankruptcy. While these additional legal services are offered, Lun & Associates prides itself on its ability and understanding of the Bay Area family court systems.</p>
+                            <p class="pear2">Because of the attorney's extensive and in depth work with the family law court's of the Bay Area, the firm has ample experience, knowledge, and understanding of how the individual judge's in the Bay Area think, operate, and rule. While no attorney can gaurantee any particular outcome, the understanding of the local courts by the attorney's at Lun & Associates will help better serve you.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" style="padding-top: 50px">
+                        <div class="about-tittle">
+                            <h2>Mission</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" style="padding-top: 50px">
+                        <div class="about-details">
+                            <p><strong>We believe that every case and client requires their own legal plan and strategy.</strong></p>
+                            <p class="pear2">No two cases are the same. At Lun & Associates we spend the time and effort to make sure that every client has a legal plan that they're comfortable with. We always want to make sure that a strategy comports with our client's wants and needs. Whether a case needs a strong hand or some finesse and sensitivity is completely dependent on a client's personality and case.</p>
+                            <p class="pear2">We will mold our knowledge, experience and expertise into fitting within your needs. We strive to achieve every goal for your case. We will work to counsel you through every action and move made throughout your case. It is important to us that you never feel alone during your family law case.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>		
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt bg-secondary">
+      <div class="container py-5">
+    		<div class="row">
+          <div class="col-md-7 d-flex align-items-center">
+            <h2 class="mb-3 mb-sm-0" style="color:black; font-size: 22px;">Sign Up for Your Free 1st Accounting Consultation</h2>
+          </div>
+          <div class="col-md-5 d-flex align-items-center">
+            <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+                <input type="text" class="form-control" placeholder="Enter email address">
+                <input type="submit" value="Subscribe" class="submit px-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include "footer.html" %}
+    
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{{ url_for('static', filename= 'js/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery-migrate-3.0.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.easing.1.3.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.waypoints.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.stellar.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.animateNumber.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/scrollax.min.js' ) }}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{{ url_for('static', filename= 'js/google-map.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/main.js') }}"></script>
+    
+  </body>
+</html>
