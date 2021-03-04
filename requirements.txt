@@ -36,7 +36,6 @@ PyMySQL==1.0.2
 pypiwin32==223
 python-dateutil==2.8.1
 python-dotenv==0.14.0
-pywin32-ctypes==0.2.0
 PyYAML==5.3.1
 requests==2.24.0
 semantic-version==2.5.0
