@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Zip the application files
-      run: Compress-Archive .\* app.zip
+      run: Compress-Archive .\* myapp.zip
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
